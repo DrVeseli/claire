@@ -15,9 +15,9 @@ go install github.com/DrVeseli/claire@v0.3
 ## Usage
 
 ```sh
-./claire sanitize cloudbeaver.log
+./claire sanitize something.log
 ./claire restore -k key.txt sanitized_log.log
-./claire cloudbeaver.log
+./claire something.log
 ./claire tui -k key.txt sanitized_log.log
 ```
 
